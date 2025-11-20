@@ -1,0 +1,57 @@
+body{ background-color: #cdd0ec; }
+
+#grid td{ 
+    width: 50px;
+    height: 48px;
+    border:1px ;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Kiwi Maru', serif;
+    font-size: 33px;
+    user-select:none;
+   
+}
+#grid td:hover{
+
+    cursor:pointer;
+}
+
+#grid td.selected{
+    background-color: rgb(255, 143, 165);
+    
+    
+}
+
+#grid td.dragging{
+    background-color: rgb(255, 135, 159);
+    opacity: 60%;
+  
+}
+
+#grid table{
+    margin:20px auto;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+#library table{
+    background-color: #fbfbff;
+    width: 800px;
+    height: 175px;
+    align-self: center;
+    border-radius: 12px;
+    margin: auto;
+}
+
+#library td{
+    font-size: 23px;
+    font-weight: bold;
+    font-family:'Kiwi Maru', serif;
+    border:1px solid #fbfbff;
+    border-collapse: separate;
+    border-spacing: 20px,10px;
+    text-align: center;
+}
