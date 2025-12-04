@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Word Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--grid will appear-->
+  <div id="congrats" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
+  background: white; padding: 30px; border-radius: 15px; font-family: 'Kiwi Maru',serif; box-shadow: 0 0 20px rgba(0,0,0,0.5); font-size:24px; text-align:center;">
+  🎉 Congratulations! You found all the words! 🎉
+  <br><br>
+  <button onclick="document.getElementById('congrats').style.display='none';window.location.href='Home.html';">Home</button>
+
+  </div>
+  
+  <div id="grid"></div>
+  <div id="library"></div>
+  <script src="script.js"></script>      
+</body>
+</html>
